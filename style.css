@@ -1,0 +1,29 @@
+        body {
+            background-color: #121212;
+            color: #00FF7F;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: linear-gradient(45deg, #1E1E1E, #00FF7F);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            box-shadow: 0 4px 10px rgba(0, 255, 127, 0.5);
+        }
+        button {
+            background: linear-gradient(90deg, #00FF7F, #1E1E1E);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 255, 127, 0.5);
+        }
+        button:hover {
+            background: #00FF7F;
+            color: #121212;
+            box-shadow: 0 4px 15px rgba(0, 255, 127, 0.8);
+        }
